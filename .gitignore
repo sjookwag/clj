@@ -1,0 +1,23 @@
+# Clojure & Leiningen Build Artifacts
+/target/
+/classes/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.cpcache/
+.nrepl-port
+.shadow-cljs/
+
+# Linter & LSP Caches (.clj-kondo, lsp)
+.clj-kondo/.cache/
+.lsp/.cache/
+.lsp/sqlite.*
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
